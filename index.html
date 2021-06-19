@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shurpkarn Boutique</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar h-nav-resp">
+        
+        <ul class="nav-list v-class-resp">
+            <div id="logo">
+                <img src="img/logo.jpg" alt="logo">
+            </div>
+                <li class="item"><a href="#home">Home</a></li>
+                <li class="item"><a href="#about">About Us</a></li>
+                <li class="item"><a href="#service">Services</a></li>
+                <li class="item"><a href="#gallery">Gallery</a></li>
+                <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <div id="home">
+        <p class="h-primary">Shurpkarn Boutique</p>
+        <p class="h-secondary">Trusted and Efficient women's Boutique in Indore</p>
+    </div>
+
+    <div id="about">
+        <p class="heading center">About Us</p>
+
+        <div id="about-content">
+            <div id="info" >
+            <p class="h-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas beatae aliquid nulla quasi eligendi corporis veniam delectus culpa debitis! Ullam, dolorem? Vel sit corrupti neque aliquam obcaecati possimus repellat pariatur hic placeat voluptas, est facere, ullam modi repellendus non ab accusantium totam voluptatum doloribus ex aspernatur quas! Natus nulla tempore deleniti. Mollitia reprehenderit ad, libero eius iusto sit atque rerum maiores animi aliquid commodi nulla veniam alias voluptas distinctio.</p>
+            </div>
+            <img src="img/about.jpg" alt="boutique" id="info-img">
+        </div>
+    </div>
+
+    <div id="service">
+        <p class="heading center">Our Services</p>
+
+        <div id="service-box">
+            <div class="box">
+               
+                <img class="box-img" src="img/lehanga.jpg" alt="">
+                
+                <h2 class="h-secondary center">Wedding Wear</h2>
+                <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas adipisci laboriosam repudiandae culpa sunt ullam nemo soluta ipsum commodi magnam!</p>
+            </div>
+            <div class="box">
+                <img class="box-img" src="img/kurta.jpg" alt="">
+                <h2 class="h-secondary center">Casual Wear</h2>
+                <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas adipisci laboriosam repudiandae culpa sunt ullam nemo soluta ipsum commodi magnam!</p>
+            </div>
+            <div class="box">
+                <img class="box-img" src="img/alter.jpg" alt="">
+                <h2 class="h-secondary center">Alteration</h2>
+                <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas adipisci laboriosam repudiandae culpa sunt ullam nemo soluta ipsum commodi magnam!</p>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <!-- Slideshow container -->
+    <div id=gallery>
+    <p class="heading center">Gallery</p>
+    <div class="gallery">
+    <div class="gallery-container">
+
+    <!-- Full-width images with number  -->
+    <div class="myimg fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="img/0.jpg" style="width:100%">
+    </div>
+  
+    <div class="myimg fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="img/1.jpg" style="width:100%">
+    </div>
+  
+    <div class="myimg fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="img/2.jpg" style="width:100%">
+    </div>
+
+    <div class="myimg fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="img/3.jpg" style="width:100%">
+    </div>
+
+    <div class="myimg fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="img/4.jpg" style="width:100%">
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plus(-1)">&#10094;</a>
+    <a class="next" onclick="plus(1)">&#10095;</a>
+  </div>
+
+  </div>
+  </div>
+
+    <div id="contact">
+        <p class="heading center">Contact Us</p>
+        <div id="contacttt">
+
+            <div id="address">
+                <p class="heading"> Our Address:</p>
+                <p class="h-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde dicta sapiente ipsa soluta quis? Optio sunt voluptatem nesciunt quisquam vero.</p>
+            </div>
+
+            <div id="contact-box">
+                <div class="box">
+                <img id="icon" src="img/whatsapp.svg">
+                <a id="whatsapp" href="https://wa.me/919713279489" target="_blank">WhatsApp Us</a>
+                </div>
+
+                <div class="box">
+                <img id="call-icon" src="img/call.svg">
+                <a id="call" href="tel: +919713279489">Call Us</a>   
+                 </div>
+
+                <div class="box">
+                <img id="mail-icon" src="img/mail.svg">
+                <a id = "mail"href="mailto:aktetwal@gmail.com">Mail Us</a>
+                 </div>
+
+            </div>
+        </div>   
+    </div>
+  
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="current(1)"></span>
+    <span class="dot" onclick="current(2)"></span>
+    <span class="dot" onclick="current(3)"></span>
+  </div>
+
+
+  <script src="js/javascript.js"></script>
+
+</body>
+</html>
